@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="teste">
+
+    </div>
+    <header><h1>Organizador de Tarefas</h1></header>
+    <main id="main">
+        <div id="tela1">
+            <input type="text" name="tarefa" id="tarefa" class="campo" placeholder="Insira o nome da tarefa..."><br>
+            <input type="text" name="descricao" id="descricao" class="campo" placeholder="Descreva a tarefa..."><br>
+            <input type="date" name="data" id="data" class="campo"><br>
+            <input type="time" name="tempo" id="tempo" class="campo">
+            
+            <select id="categoria">
+                    <option value="1">Insira a categoria</option>
+                    <option value="2">Esporte</option>
+                    <option value="3">Consulta</option>
+                    <option value="4">Faxina</option>
+                    <option value="5">Diversos</option>
+            </select><br>
+          
+        
+            <input type="button" value="Salvar" id="botao" onclick="salvar()">
+        </div>
+        <br>
+        
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
